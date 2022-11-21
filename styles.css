@@ -1,0 +1,47 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(250, 221, 177);
+    display: flex;
+    justify-content: center;
+}
+
+#main {
+    width: 600px;
+}
+
+#title,
+h3,
+p {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+#img-div {
+    background: rgb(254, 228, 192);
+    padding: 40px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    border-radius: 5px;
+}
+
+#img-caption {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+
+li {
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+}
